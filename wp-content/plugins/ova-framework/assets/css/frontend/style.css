@@ -1,0 +1,36 @@
+.ova_menu_footer .menu {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .ova_menu_footer .menu .menu-item.current-menu-item a:before {
+    width: 100%; }
+  .ova_menu_footer .menu .menu-item a {
+    position: relative; }
+    .ova_menu_footer .menu .menu-item a:before {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: -1px;
+      width: 0;
+      height: 1px;
+      background: #333;
+      transition: all .3s linear; }
+    .ova_menu_footer .menu .menu-item a:hover:before {
+      width: 100%; }
+
+.ova_mc4wp_wrap {
+  display: flex;
+  position: relative; }
+  .ova_mc4wp_wrap input {
+    min-height: 52px;
+    border: none !important;
+    outline: none;
+    background: #EEF;
+    width: 100%; }
+  .ova_mc4wp_wrap button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0; }
+
+/*# sourceMappingURL=style.css.map */

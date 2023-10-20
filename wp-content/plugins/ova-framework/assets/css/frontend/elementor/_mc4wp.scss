@@ -1,0 +1,17 @@
+.ova_mc4wp_wrap {
+	display: flex;
+	position: relative;
+	input {
+		min-height: 52px;
+		border: none !important;
+		outline: none;
+		background: #EEF;
+		width: 100%;
+	}
+	button {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+	}
+}

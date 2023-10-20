@@ -1,0 +1,34 @@
+.ova_menu_footer {
+	.menu {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		.menu-item {
+			&.current-menu-item {
+				a {
+					&:before {
+						width: 100%;
+					}
+				}
+			}
+			a {
+				position: relative;
+				&:before {
+					position: absolute;
+					content: "";
+					left: 0;
+					bottom: -1px;
+					width: 0;
+					height: 1px;
+					background: #333;
+					transition: all .3s linear;
+				}
+				&:hover {
+					&:before {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}
