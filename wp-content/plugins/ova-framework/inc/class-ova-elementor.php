@@ -31,9 +31,11 @@ if ( ! class_exists("Ova_Elementor") ) {
 
 			require_once( OFW_PATH . 'inc/elementor/widgets/menu-footer.php' );
 			require_once( OFW_PATH . 'inc/elementor/widgets/search-product.php' );
+			require_once( OFW_PATH . 'inc/elementor/widgets/blog-grid.php' );
 
 			$widgets_manager->register( new Ova_Elementor_Menu_Footer() );
 			$widgets_manager->register( new Ova_Elementor_Search_Product() );
+			$widgets_manager->register( new Ova_Elementor_Blog_Grid() );
 		}
 	}
 	new Ova_Elementor();

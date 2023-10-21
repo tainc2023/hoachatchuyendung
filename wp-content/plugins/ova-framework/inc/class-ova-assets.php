@@ -13,7 +13,6 @@ class Ova_Framework_Assets {
 	}
 	public function ova_enqueue_scripts(){
 		wp_enqueue_style( 'fontawesome', OFW_URL . 'assets/libs/fontawesome/fontawesome-all.min.css' , array(), '6.4.2', 'all' );
-		// wp_enqueue_style( 'ofw-reset', OFW_URL . 'assets/css/frontend/normalize.css' );
 		wp_enqueue_style( 'ofw-style', OFW_URL . 'assets/css/frontend/style.css' );
 	}
 }
